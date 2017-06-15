@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SegiEmpat Store</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/ion-rangeslider/ion.rangeSlider.css" />
+  <link rel="stylesheet" href="css/ion-rangeslider/ion.rangeSlider.skinFlat.css" />
+  <link rel="icon" type="image/png" href="img/brand.png">
+</head>
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/brand.png" alt="SegiEmpat-logo" class="logo" width="50px" height="50px" />
+          SegiEmpat Store
+        </a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li class="active">
+          <a href="product.html">Product</a>
+        </li>
+        <li>
+          <a href="how-to-order.html">How To Order</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </li>
+        <li>
+          <hr />
+            <div class="line"></div>
+          </li>
+        <li>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+            Yovie Rachman<span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu dropdown-cart" role="menu">
+              <li>
+                  <span class="item">
+                      <a href="" style="color:#333;">Profile</a>
+                  </span>
+              </li>
+              <li>
+                  <span class="item">
+                    <a href="" style="color:#333;">Setting</a>
+                  </span>
+              </li>
+              <li>
+                  <span class="item">
+                      <a href="" style="color:#333;">Log Out</a>
+                  </span>
+              </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" >
+            <span class="glyphicon glyphicon-shopping-cart"></span>
+            2 <span class="caret"></span>
+          </a>
+          <!-- Item Chart-->
+          <ul class="dropdown-menu dropdown-cart" role="menu">
+            <!-- Item 1 -->
+              <li>
+                  <span class="item">
+                    <span class="item-left">
+                        <img src="img/brand.png" alt="" height="50" width="50"/>
+                        <span class="item-info">
+                            <span><strong>SegiEmpat Design</strong></span>
+                            <span>Rp.100.000</span>
+                        </span>
+                    </span>
+                    <span class="item-right">
+                        <button class="btn btn-xs btn-danger pull-right"><span class="glyphicon glyphicon-remove"></button></button>
+                    </span>
+                </span>
+              </li>
+              <!-- Item 2 -->
+              <li>
+                  <span class="item">
+                    <span class="item-left">
+                      <img src="img/brand.png" alt="" height="50" width="50"/>
+                        <span class="item-info">
+                            <span><strong>SegiEmpat Design</strong></span>
+                            <span>Rp.100.000</span>
+                        </span>
+                    </span>
+                    <span class="item-right">
+                        <button class="btn btn-xs btn-danger pull-right"><span class="glyphicon glyphicon-remove"></button></button>
+                    </span>
+                </span>
+              </li>
+              <li class="divider"></li>
+              <li><a class="text-center" href="">View Cart</a></li>
+        <!--End of Item Chart-->
+      </ul>
+    </li>
+    </div>
+  </nav><!-- end of nav -->
+  <div class="container">
+    <div class="page-header bg-header">
+      <h1 class="title-header">Product</h1>
+      <small>Lorem ipsum dolor sit amet</small>
+    </div>
+      <div class="col-md-3 cold-sm-3 col-lg-4"> <!--Begin nav 2 for specific product-->
+        <h4>Yuk, cari kriteria kaosmu!</h4>
+        <nav class="navbar navbar-inverse" style="background-color: transparent;border:none;" role="navigation">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-2">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+          </div>
+          <div class="navbar-collapse collapse " id="navbar-collapse-2">
+            <ul class="list-unstyled">
+              <li>
+                <h5>Cari</h5>
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Cari ..">
+                      <span class="input-group-btn">
+                        <button class="btn btn-warning" type="button">
+                          <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                      </span>
+                    </div>
+              </li>
+              <li>
+                <h5>Harga</h5>
+                  <div class="form-group">
+                    <div class="row">
+                    <div class="col-xs-5">
+                      <input class="form-control" type="text" placeholder="Harga Awal">
+                    </div>
+                    <div class="col-xs-2 text-center">s/d</div>
+                    <div class="col-xs-5">
+                      <input class="form-control" type="text" placeholder="Harga Akhir">
+                    </div>
+                    </div>
+                  </div>
+              </li>
+              <li>
+                <h5>Warna</h5>
+                  <div class="row text-center">
+                    <div class="col-xs-3 col-sm-3" style="padding-bottom:5px;">
+                      <div class="btn btn-color btn-white"></div>
+                    </div>
+                    <div class="col-xs-3 col-sm-3" style="padding-bottom:5px;">
+                      <div class="btn btn-color btn-black"></div>
+                    </div>
+                    <div class="col-xs-3 col-sm-3" style="padding-bottom:5px;">
+                      <div class="btn btn-color btn-grey"></div>
+                    </div>
+                    <div class="col-xs-3 col-sm-3" style="padding-bottom:5px;">
+                      <div class="btn btn-color btn-yellow"></div>
+                    </div>
+                    <div class="col-xs-3 col-sm-3" style="padding-bottom:5px;">
+                      <div class="btn btn-color btn-red"></div>
+                    </div>
+                    <div class="col-xs-3 col-sm-3" style="padding-bottom:5px;">
+                      <div class="btn btn-color btn-blue"></div>
+                    </div>
+                    <div class="col-xs-3 col-sm-3" style="padding-bottom:5px;">
+                      <div class="btn btn-color btn-green"></div>
+                    </div>
+                    <div class="col-xs-3 col-sm-3" style="padding-bottom:5px;">
+                      <div class="btn btn-color btn-pink"></div>
+                    </div>
+                  </div>
+              </li>
+              <li>
+                <h5>Ukuran</h5>
+                <ul class="pagination list-inline">
+                  <li><a href="#">S</a></li>
+                  <li><a href="#">M</a></li>
+                  <li><a href="#">L</a></li>
+                  <li><a href="#">XL</a></li>
+                  <li><a href="#">XXL</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+      </nav>
+    </div><!--End of nav 2-->
+      <div class="col-md-9 col-lg-8 line-left">
+        <div class="dropdown" style="margin:10px 0;">
+          <button class="btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Sort by
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="#">Sort by A-Z</a></li>
+            <li><a href="#">Sort by Z-A</a></li>
+            <li><a href="#">Sort by Price</a></li>
+            <li><a href="#">Sort by Rating</a></li>
+            <li><a href="#">Sort by View</a></li>
+          </ul>
+        </div>
+        <!--Begin product-->
+        <div class="row text-center">
+            <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="thumbnail">
+                <img src="img/kaos/bullskate.jpg" alt="Kaos-Bullskate" width="150" height="200">
+                <p><a href="#"><strong>BullSkate Design</strong></a></p>
+                <p>Rp.125.000 <br/>S,M,L,XL,XXL<br/>
+                <div class="rate-star">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                </div>
+                </p>
+              </div><!-- .thumbnail -->
+            </div><!-- .col-md-3 col-sm-4 col-xs-6 -->
+            <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="thumbnail">
+                <img src="img/kaos/paradise-fish.jpg" alt="paradise-fish" width="150" height="200">
+                <p><a href="#"><strong>Paradise Fish Design</strong></a></p>
+                <p>Rp.125.000 <br/>S,M,L,XL,XXL<br/>
+                <div class="rate-star">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                </div>
+                </p>
+              </div><!-- .thumbnail -->
+            </div><!-- .col-md-3 col-sm-4 col-xs-6 -->
+            <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="thumbnail">
+                <img src="img/kaos/fox.jpg" alt="fox" width="150" height="200">
+                <p><a href="#"><strong>Samurai Fox Design</strong></a></p>
+                <p>Rp.125.000 <br/>S,M,L,XL,XXL<br/>
+                <div class="rate-star">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                </div>
+                </p>
+              </div><!-- .thumbnail -->
+            </div><!-- .col-md-3 col-sm-4 col-xs-6 -->
+            <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="thumbnail">
+                <img src="img/kaos/truneo-ae86.jpg" alt="truneo-ae86" width="150" height="250">
+                <p><a href="#"><strong>Truneo AE86 Design</strong></a></p>
+                <p>Rp.125.000 <br/>S,M,L,XL,XXL<br/>
+                <div class="rate-star">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                </div>
+                </p>
+              </div><!-- .thumbnail -->
+            </div><!-- .col-md-3 col-sm-4 col-xs-6 -->
+            <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="thumbnail">
+                <img src="img/kaos/minggir-lu.jpg" alt="minggir-lu" width="150" height="200">
+                <p><a href="#"><strong>Minggir Lu Design</strong></a></p>
+                <p>Rp.120.000 <br/>S,M,L,XL,XXL<br/>
+                <div class="rate-star">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                </div>
+                </p>
+              </div><!-- .thumbnail -->
+            </div><!-- End of .col-md-3 col-sm-4 col-xs-6 -->
+            <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="thumbnail">
+                <img src="img/kaos/corola-sprinter.jpg" alt="corola-sprinter" width="150" height="250">
+                <p><a href="#"><strong>Corola Sprinter Design</strong></a></p>
+                <p>Rp.125.000 <br/>S,M,L,XL,XXL<br/>
+                <div class="rate-star">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                </div>
+                </p>
+              </div><!-- .thumbnail -->
+            </div><!-- End of .col-md-3 col-sm-4 col-xs-6 -->
+            <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="thumbnail">
+                <img src="img/kaos/Segiempat.jpg" alt="Segiempat" width="150" height="250">
+                <p><a href="#"><strong>SegiEmpat Design</strong></a></p>
+                <p>Rp.100.000 <br/>S,M,L,XL,XXL<br/>
+                <div class="rate-star">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                </div>
+                </p>
+              </div><!-- .thumbnail -->
+            </div><!-- End of .col-md-3 col-sm-4 col-xs-6 -->
+            <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="thumbnail">
+                <img src="img/kaos/Segiempat.jpg" alt="Segiempat" width="150" height="250">
+                <p><a href="#"><strong>SegiEmpat Design</strong></a></p>
+                <p>Rp.100.000 <br/>S,M,L,XL,XXL<br/>
+                <div class="rate-star">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                </div>
+                </p>
+              </div><!-- .thumbnail -->
+            </div><!-- End of .col-md-3 col-sm-4 col-xs-6 -->
+            <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="thumbnail">
+                <img src="img/kaos/bullskate.jpg" alt="Bullskate" width="150" height="200">
+                <p><a href="#"><strong>BullSkate Design</strong></a></p>
+                <p>Rp.125.000 <br/>S,M,L,XL,XXL<br/>
+                <div class="rate-star">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                </div>
+                </p>
+              </div><!-- .thumbnail -->
+            </div><!-- .col-md-3 col-sm-4 col-xs-6 -->
+            <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="thumbnail">
+                <img src="img/kaos/paradise-fish.jpg" alt="paradise-fish" width="150" height="200">
+                <p><a href="#"><strong>Paradise Fish Design</strong></a></p>
+                <p>Rp.125.000 <br/>S,M,L,XL,XXL<br/>
+                <div class="rate-star">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                </div>
+                </p>
+              </div><!-- .thumbnail -->
+            </div><!-- .col-md-3 col-sm-4 col-xs-6 -->
+            <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="thumbnail">
+                <img src="img/kaos/fox.jpg" alt="fox" width="150" height="200">
+                <p><a href="#"><strong>Samurai Fox Design</strong></a></p>
+                <p>Rp.125.000 <br/>S,M,L,XL,XXL<br/>
+                <div class="rate-star">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                </div>
+                </p>
+              </div><!-- .thumbnail -->
+            </div><!-- .col-md-3 col-sm-4 col-xs-6 -->
+            <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="thumbnail">
+                <img src="img/kaos/truneo-ae86.jpg" alt="truneo-ae86" width="150" height="250">
+                <p><a href="#"><strong>Truneo AE86 Design</strong></a></p>
+                <p>Rp.125.000 <br/>S,M,L,XL,XXL<br/>
+                <div class="rate-star">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                </div>
+                </p>
+              </div><!-- .thumbnail -->
+            </div><!-- .col-md-3 col-sm-4 col-xs-6 -->
+            <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="thumbnail">
+                <img src="img/kaos/bullskate.jpg" alt="Kaos-Bullskate" width="150" height="200">
+                <p><a href="#"><strong>BullSkate Design</strong></a></p>
+                <p>Rp.125.000 <br/>S,M,L,XL,XXL<br/>
+                <div class="rate-star">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                </div>
+                </p>
+              </div><!-- .thumbnail -->
+            </div><!-- .col-md-3 col-sm-4 col-xs-6 -->
+            <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="thumbnail">
+                <img src="img/kaos/paradise-fish.jpg" alt="paradise-fish" width="150" height="200">
+                <p><a href="#"><strong>Paradise Fish Design</strong></a></p>
+                <p>Rp.125.000 <br/>S,M,L,XL,XXL<br/>
+                <div class="rate-star">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                </div>
+                </p>
+              </div><!-- .thumbnail -->
+            </div><!-- .col-md-3 col-sm-4 col-xs-6 -->
+            <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="thumbnail">
+                <img src="img/kaos/fox.jpg" alt="fox" width="150" height="200">
+                <p><a href="#"><strong>Samurai Fox Design</strong></a></p>
+                <p>Rp.125.000 <br/>S,M,L,XL,XXL<br/>
+                <div class="rate-star">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                </div>
+                </p>
+              </div><!-- .thumbnail -->
+            </div><!-- .col-md-3 col-sm-4 col-xs-6 -->
+            <div class="col-md-3 col-sm-4 col-xs-6">
+              <div class="thumbnail">
+                <img src="img/kaos/truneo-ae86.jpg" alt="truneo-ae86" width="150" height="250">
+                <p><a href="#"><strong>Truneo AE86 Design</strong></a></p>
+                <p>Rp.125.000 <br/>S,M,L,XL,XXL<br/>
+                <div class="rate-star">
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                  <span class="yellow"></span>
+                </div>
+                </p>
+              </div><!-- .thumbnail -->
+            </div><!-- .col-md-3 col-sm-4 col-xs-6 -->
+          </div><!-- End of .row text-center for begin product -->
+          <ul class="pagination right">
+            <li>
+              <a href="#"><span aria-hidden="true">&laquo;</span></a>
+            </li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li>
+              <a href="#"><span aria-hidden="true">&raquo;</span></a>
+            </li>
+          </ul>
+        </div><!-- End of .col-md-9 col-lg-8 line-left -->
+    </div><!-- End of .container -->
+  <div class="footer clearfix">
+      <div class="col-md-4">
+        <h3 class="sitemap">Sitemap</h3>
+        <ul class="footer-menu list-unstyled">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="product.html">Product</a>
+          </li>
+          <li>
+            <a href="how-to-order.html">How To Order</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div><!-- End of /col-sm-4 Menu -->
+      <div class="col-md-4">
+        <div class="text-center white">
+        <h3 style="color:#ffcb1a;">Connect with us</h3>
+        <ul class="list-inline">
+          <li>
+            <a class="btn btn-social btn-facebook">
+              <i class="fa fa-facebook"></i>
+              SegiEmpat Clothing
+            </a>
+          </li>
+          <li>
+            <a class="btn btn-social btn-instagram">
+              <i class="fa fa-instagram"></i>
+              SegiEmpat Clothing
+            </a>
+          </li>
+          <li>
+            <a class="btn btn-social btn-whatsapp">
+              <i class="fa fa-whatsapp"></i>
+              0838-5799-1953
+            </a>
+          </li>
+        </ul>
+        </div>
+      </div><!-- End of /col-sm-4 Social -->
+      <div class="col-md-4">
+        <div class="text-center white">
+        <h3 style="color:#ffcb1a;">Location Store</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          </p>
+        </div>
+      </div><!-- End of /col-sm-4 Social -->
+  </div><!-- End of /footer -->
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>
